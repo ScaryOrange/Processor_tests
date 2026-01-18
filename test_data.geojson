@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Small Town 1",
+        "population": 800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-0.1, 51.5], [-0.05, 51.5], [-0.05, 51.55], [-0.1, 51.55], [-0.1, 51.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Small Town 2",
+        "population": 900
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-0.2, 51.6], [-0.15, 51.6], [-0.15, 51.65], [-0.2, 51.65], [-0.2, 51.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Big City 1",
+        "population": 2500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-0.3, 51.4], [-0.25, 51.4], [-0.25, 51.45], [-0.3, 51.45], [-0.3, 51.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Small Town 3",
+        "population": 750
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-0.4, 51.7], [-0.35, 51.7], [-0.35, 51.75], [-0.4, 51.75], [-0.4, 51.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Big City 2",
+        "population": 3200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-0.5, 51.3], [-0.45, 51.3], [-0.45, 51.35], [-0.5, 51.35], [-0.5, 51.3]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medium City 1",
+        "population": 1200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-0.6, 51.8], [-0.55, 51.8], [-0.55, 51.85], [-0.6, 51.85], [-0.6, 51.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medium City 2",
+        "population": 1000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-0.7, 51.2], [-0.65, 51.2], [-0.65, 51.25], [-0.7, 51.25], [-0.7, 51.2]]]
+      }
+    }
+  ]
+}
